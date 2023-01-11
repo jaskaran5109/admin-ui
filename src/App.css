@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .App-logo {
@@ -7,32 +10,63 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.css-r93niq-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  border-radius: 50px;
+  color: white !important;
+  background-color: #2e7bd2 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.MuiButtonBase-root.Mui-disabled {
+  border-radius: 50px;
+  color: gray !important;
+  background-color: lightgray !important;
+}
+
+.MuiPagination-ul>li {
+  margin: 10px;
+}
+
+.MuiButtonBase-root {
+  /* background-color: #1970d3 !important; */
+  border-radius: 50px !important;
+  color: black !important;
+}
+
+.PrivateSwitchBase-input {
+  background: black !important;
+}
+
+.MuiButton-label {
+  background: #fc5373;
+  color: white;
+  border-radius: 20px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.btn-save {
+  border-radius: 10px;
+  border: none !important;
+  background-color: aqua;
+  padding: 10px;
+  width: 45%;
+}
+.btn-save:hover{
+  background-color: rgb(30, 191, 191);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-close{
+  border-radius: 10px;
+  border: none !important;
+  background-color: gray;
+  padding: 10px;
+  width: 45%;
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-close:hover{
+  background-color: lightgray;
+  color: black;
 }
